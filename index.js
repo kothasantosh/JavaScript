@@ -11,3 +11,8 @@ console.log("3"+"3"-"3"+"3");
 
 
 // single line comment
+const greet = (name) => {
+  const message = `Hello, ${name}!`;
+  return message;
+};
+console.log(greet("Santosh"));
