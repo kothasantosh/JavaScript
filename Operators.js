@@ -18,3 +18,10 @@ let a = true, b = false;
 
 console.log("Logical AND = " + (a && b)); // false
 console.log("Logical OR = " + (a || b)); // true    
+
+console.log( (10 < 5) && (5 < 10) ); 
+console.log( (10 > 5) || (5 > 10) ); 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+let myList = fruits.toString();
+console.log("Fruits List = " + myList); // Banana,Orange,Apple,Mango
